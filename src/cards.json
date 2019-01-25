@@ -1,57 +1,57 @@
 [{
         "id": 1,
-        "image": "../public/images/anchor.png"
+        "image": "https://imgur.com/wWts9Oe"
     },
     {
         "id": 2,
-        "image": ""
+        "image": "https://imgur.com/k05ZUDj"
     },
     {
         "id": 3,
 
-        "image": ""
+        "image": "https://imgur.com/yJjD9mX"
     },
     {
         "id": 4,
-        "image": ""
+        "image": "https://imgur.com/lTJ7jui"
     },
     {
         "id": 5,
-        "image": ""
+        "image": "https://imgur.com/zyxdSYU"
     },
     {
         "id": 6,
-        "image": ""
+        "image": "https://imgur.com/itr62Ap"
 
     },
     {
         "id": 7,
-        "image": ""
+        "image": "https://imgur.com/GuwEVIF"
 
     },
     {
         "id": 8,
-        "image": ""
+        "image": "https://imgur.com/JWb3Vqf"
 
     },
     {
         "id": 9,
-        "image": ""
+        "image": "https://imgur.com/OE4F3U0"
 
     },
     {
         "id": 10,
-        "image": ""
+        "image": "https://imgur.com/ALxk7Wd"
 
     },
     {
         "id": 11,
-        "image": ""
+        "image": "https://imgur.com/4qPBjkt"
 
     },
     {
         "id": 12,
-        "image": ""
+        "image": "https://imgur.com/OZpJksF"
 
     }
 ]
