@@ -1,11 +1,13 @@
 .card {
-    background: #fff;
+    background: black;
+    /* flex-grow: inherit; */
+    /* align-self: contain; */
     border-radius: 2px;
-    height: 240px;
+    height: 250px;
     margin: 1rem;
     margin-top: 10px;
     position: relative;
-    width: 270px;
+    width: 200px;
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
     overflow: hidden;
 }

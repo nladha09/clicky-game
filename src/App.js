@@ -20,13 +20,13 @@ class App extends Component {
       let clickedPicIds = this.state.clickedPicIds;
 
       if(clickedPicIds.includes(id)){
-        this.setState({ clickedPicIds: [], score: 0, status:  "Game Over! You lost. Click to play again!" });
+        this.setState({ clickedPicIds: [], score: 0, status:  "Game Over! Click to play again!" });
         return;
       }else{
         clickedPicIds.push(id)
 
         if(clickedPicIds.length === 8){
-          this.setState({score: 8, status: "You Won! Great Job, Smartie! Click to play again!", clickedPicIds: []});
+          this.setState({score: 8, status: "You Win! Click to play again!", clickedPicIds: []});
           console.log('You Win');
           return;
         }
@@ -44,7 +44,7 @@ class App extends Component {
       return (
         <div className="App">
           <header className="App-header">
-          <h1 className="App-title">Clicky-Game</h1>
+          <h1 className="App-title">Finding Nemo Memory Game</h1>
           <p className="App-intro">
             Try not to click the same image twice!
           </p>
@@ -64,7 +64,9 @@ class App extends Component {
           ))}
         </Wrapper>
         <footer>
-          <p>Finding Nemo Memory Game<a href="https://github.com/nladha09/clicky-game" target="_blank" rel="noopener noreferrer"> here</a>.</p>
+          <br></br>
+          <br></br>
+          <p>GitHub Repo<a href="https://github.com/nladha09/clicky-game" target="_blank" rel="noopener noreferrer"> here</a>.</p>
         </footer>
         </div>
       );
