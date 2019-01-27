@@ -1,2 +1,2 @@
 # clicky-game
-a memory game built with React
+a memory game built with React :sunglasses:
