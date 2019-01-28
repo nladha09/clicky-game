@@ -1,5 +1,5 @@
-# clicky-game
-a memory game built with React :ocean:
+# clicky-game  :ocean:
+a memory game built with React
 
 [Deployed Site here!](https://nladha09.github.io/clicky-game/)
 
