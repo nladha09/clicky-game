@@ -66,7 +66,7 @@ class App extends Component {
         <footer>
           <br></br>
           <br></br>
-          <p>GitHub Repo<a href="https://github.com/nladha09/clicky-game" target="_blank" rel="noopener noreferrer"> here</a>.</p>
+          <p align = "center">GitHub Repo<a href="https://github.com/nladha09/clicky-game" target="_blank" rel="noopener noreferrer"> here</a>.</p>
         </footer>
         </div>
       );
