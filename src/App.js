@@ -11,7 +11,7 @@ class App extends Component {
       pics,
       clickedPicIds: [],
       score: 0,
-      goal: 8,
+      goal: 12,
       status: ""
     };
   
@@ -25,8 +25,8 @@ class App extends Component {
       }else{
         clickedPicIds.push(id)
 
-        if(clickedPicIds.length === 8){
-          this.setState({score: 8, status: "You Win! Click to play again!", clickedPicIds: []});
+        if(clickedPicIds.length === 12){
+          this.setState({score: 12, status: "You Win! Click to play again!", clickedPicIds: []});
           console.log('You Win');
           return;
         }
@@ -50,7 +50,7 @@ class App extends Component {
           </p>
           </header>
           <Score total={this.state.score}
-              goal={8}
+              goal={12}
               status={this.state.status}
               />
         <Wrapper>

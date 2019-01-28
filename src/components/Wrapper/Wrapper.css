@@ -1,4 +1,5 @@
 .wrapper {
+    background: beige;
     padding-top: 10px;
     height: 100%;
     display: flex;
@@ -7,4 +8,5 @@
     /* overflow: auto; */
     /* margin-left: auto; */
     /* margin-right: auto; */
-}
+    }
+    
